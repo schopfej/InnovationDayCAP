@@ -1,0 +1,1 @@
+using NIDService as service from '../../srv/nid-service';
