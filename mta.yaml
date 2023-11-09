@@ -1,7 +1,7 @@
 _schema-version: "3.1"
 ID: novoinnoapp
 description: A simple CAP project.
-version: 1.0.0
+version: 1.1.0
 modules:
 - name: novoinnoapp-srv
   type: nodejs
@@ -122,7 +122,7 @@ resources:
   parameters:
     config:
       tenant-mode: dedicated
-      xsappname: novoinnoapp-${org}-${space}
+      xsappname: novoinnoapp
     path: ./xs-security.json
     service: xsuaa
     service-name: novoinnoapp-xsuaa-service
