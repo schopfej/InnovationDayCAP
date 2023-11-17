@@ -119,7 +119,7 @@
                     ]
                 },
                 {
-                    "pattern": "Participants/{objectId}",
+                    "pattern": "Participants/{participantId}",
                     "name": "object",
                     "target": [
                         "object"

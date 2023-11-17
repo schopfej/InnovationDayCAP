@@ -18,98 +18,82 @@ sap.ui.define([
          * Called when the worklist controller is instantiated.
          * @public
          */
-        onInit : function () {
-            // Model used to manipulate control states. The chosen values make sure,
-            // detail page shows busy indication immediately so there is no break in
-            // between the busy indication for loading the view's meta data
-            var oViewModel = new JSONModel({
-                    busy : true,
-                    delay : 0
-                });
-            this.getRouter().getRoute("object").attachPatternMatched(this._onObjectMatched, this);
-            this.setModel(oViewModel, "objectView");
+        onInit: function () {
+            var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+            oRouter.getRoute("object").attachMatched(this._onRouteMatched, this);
         },
-        /* =========================================================== */
-        /* event handlers                                              */
-        /* =========================================================== */
+        _onRouteMatched: function (oEvent) {
+            var oArgs, oView;
+            oArgs = oEvent.getParameter("arguments");
+            oView = this.getView();
+            oView.bindElement({
+                path: "/Participants('" + oArgs.participantId + "')",
+
+                
+                parameters: {
+                  $expand: "presentations($expand=presentation)"
+                },
 
 
-        /**
-         * Event handler  for navigating back.
-         * It there is a history entry we go one step back in the browser history
-         * If not, it will replace the current entry of the browser history with the worklist route.
-         * @public
-         */
-        onNavBack : function() {
-            var sPreviousHash = History.getInstance().getPreviousHash();
-            if (sPreviousHash !== undefined) {
-                // eslint-disable-next-line fiori-custom/sap-no-history-manipulation
-                history.go(-1);
-            } else {
-                this.getRouter().navTo("worklist", {}, true);
-            }
-        },
 
-        /* =========================================================== */
-        /* internal methods                                            */
-        /* =========================================================== */
-
-        /**
-         * Binds the view to the object path.
-         * @function
-         * @param {sap.ui.base.Event} oEvent pattern match event in route 'object'
-         * @private
-         */
-        _onObjectMatched : function (oEvent) {
-            var sObjectId =  oEvent.getParameter("arguments").objectId;
-            this._bindView("/Participants" + sObjectId);
-        },
-
-        /**
-         * Binds the view to the object path.
-         * @function
-         * @param {string} sObjectPath path to the object to be bound
-         * @private
-         */
-        _bindView : function (sObjectPath) {
-            var oViewModel = this.getModel("objectView");
-
-            this.getView().bindElement({
-                path: sObjectPath,
                 events: {
-                    change: this._onBindingChange.bind(this),
                     dataRequested: function () {
-                        oViewModel.setProperty("/busy", true);
+                        oView.setBusy(true);
                     },
                     dataReceived: function () {
-                        oViewModel.setProperty("/busy", false);
+                        oView.setBusy(false);
                     }
                 }
             });
+            var oViewRoom = this.byId("idView") ; 
+            // oViewRoom.bindElement({
+            //     path: "/Presentations('" + oArgs.presentationId + "')",
+
+                
+            //     parameters: {
+            //       $expand: "presentations($expand=room)"
+            //     },
+
+
+
+            //     events: {
+            //         dataRequested: function () {
+            //             oViewRoom.setBusy(true);
+            //         },
+            //         dataReceived: function () {
+            //             oViewRoom.setBusy(false);
+            //         }
+            //     }
+            // });
+
+
+
+        },
+        handleNavButtonPress: function (evt) {
+            var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+            oRouter.navTo("home");
         },
 
-        _onBindingChange : function () {
-            var oView = this.getView(),
-                oViewModel = this.getModel("objectView"),
-                oElementBinding = oView.getElementBinding();
+        onPressView: function(evt){
+            
+        },
 
-            // No data for the binding
-            if (!oElementBinding.getBoundContext()) {
-                this.getRouter().getTargets().display("objectNotFound");
-                return;
-            }
-
-            var oResourceBundle = this.getResourceBundle(),
-                oObject = oView.getBindingContext().getObject(),
-                sObjectId = oObject.lastName,
-                sObjectName = oObject.Participants;
-
-                oViewModel.setProperty("/busy", false);
-                oViewModel.setProperty("/shareSendEmailSubject",
-                    oResourceBundle.getText("shareSendEmailObjectSubject", [sObjectId]));
-                oViewModel.setProperty("/shareSendEmailMessage",
-                    oResourceBundle.getText("shareSendEmailObjectMessage", [sObjectName, sObjectId, location.href]));
+        handleOrder: function (evt) {
+            // show confirmation dialog
+            var bundle = this.getView().getModel("i18n").getResourceBundle();
+            MessageBox.confirm(
+                bundle.getText("OrderDialogMsg"),
+                function (oAction) {
+                    if (MessageBox.Action.OK === oAction) {
+                        // notify user
+                        var successMsg = bundle.getText("OrderDialogSuccessMsg");
+                        MessageToast.show(successMsg);
+                        // TODO call proper service method and update model (not part of this tutorial)
+                    }
+                },
+                bundle.getText("OrderDialogTitle")
+            );
         }
     });
-
 });
+

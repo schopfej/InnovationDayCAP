@@ -124,9 +124,14 @@ sap.ui.define([
          * @private
          */
         _showObject : function (oItem) {
+            
+            var selectedParticipantId = this.getView().byId("inputMail").getValue();
+            selectedParticipantId = "stefan@tester.sap.com" ;
             this.getRouter().navTo("object", {
-                objectId: oItem.getBindingContext().getPath().substring("/Participants".length)
+                participantId: encodeURIComponent(selectedParticipantId)
             });
+
+
         },
 
         /**
