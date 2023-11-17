@@ -1,7 +1,7 @@
 {
     "_version": "1.58.0",
     "sap.app": {
-        "id": "ch.novobc.novoinnoappmodule",
+        "id": "ch.novobc.innoappmodule2",
         "type": "application",
         "i18n": "i18n/i18n.properties",
         "applicationVersion": {
@@ -11,18 +11,31 @@
         "description": "{{appDescription}}",
         "resources": "resources.json",
         "sourceTemplate": {
-            "id": "@sap/generator-fiori:basic",
+            "id": "@sap/generator-fiori:worklist",
             "version": "1.11.3",
-            "toolsId": "13d53a2d-f758-490a-b6f8-792c6a1f3cad"
+            "toolsId": "e3f4eb5f-deb4-4700-81a3-bdeb5b4c08d5"
         },
         "dataSources": {
             "mainService": {
-                "uri": "/odata/v4/nid/",
+                "uri": "odata/v4/nid/",
                 "type": "OData",
                 "settings": {
                     "annotations": [],
                     "localUri": "localService/metadata.xml",
                     "odataVersion": "4.0"
+                }
+            }
+        },
+        "crossNavigation": {
+            "inbounds": {
+                "innoapp-read": {
+                    "semanticObject": "innoapp",
+                    "action": "read",
+                    "title": "{{flpTitle}}",
+                    "signature": {
+                        "parameters": {},
+                        "additionalParameters": "allowed"
+                    }
                 }
             }
         }
@@ -46,7 +59,7 @@
     "sap.ui5": {
         "flexEnabled": true,
         "dependencies": {
-            "minUI5Version": "1.120.0",
+            "minUI5Version": "1.120.1",
             "libs": {
                 "sap.m": {},
                 "sap.ui.core": {},
@@ -66,7 +79,7 @@
             "i18n": {
                 "type": "sap.ui.model.resource.ResourceModel",
                 "settings": {
-                    "bundleName": "ch.novobc.novoinnoappmodule.i18n.i18n"
+                    "bundleName": "ch.novobc.innoappmodule2.i18n.i18n"
                 }
             },
             "": {
@@ -81,46 +94,66 @@
             }
         },
         "resources": {
-            "css": [
-                {
-                    "uri": "css/style.css"
-                }
-            ]
+            "css": []
         },
         "routing": {
             "config": {
                 "routerClass": "sap.m.routing.Router",
                 "viewType": "XML",
-                "async": true,
-                "viewPath": "ch.novobc.novoinnoappmodule.view",
-                "controlAggregation": "pages",
+                "viewPath": "ch.novobc.innoappmodule2.view",
                 "controlId": "app",
-                "clearControlAggregation": false
+                "controlAggregation": "pages",
+                "bypassed": {
+                    "target": [
+                        "notFound"
+                    ]
+                },
+                "async": true
             },
             "routes": [
                 {
-                    "name": "Routenovoinnoappview",
-                    "pattern": ":?query:",
+                    "pattern": "",
+                    "name": "worklist",
                     "target": [
-                        "Targetnovoinnoappview"
+                        "worklist"
+                    ]
+                },
+                {
+                    "pattern": "Participants/{objectId}",
+                    "name": "object",
+                    "target": [
+                        "object"
                     ]
                 }
             ],
             "targets": {
-                "Targetnovoinnoappview": {
-                    "viewType": "XML",
-                    "transition": "slide",
-                    "clearControlAggregation": false,
-                    "viewId": "novoinnoappview",
-                    "viewName": "novoinnoappview"
+                "worklist": {
+                    "viewName": "Worklist",
+                    "viewId": "worklist",
+                    "viewLevel": 1,
+                    "title": "{i18n>worklistViewTitle}"
+                },
+                "object": {
+                    "viewName": "Object",
+                    "viewId": "object",
+                    "viewLevel": 2,
+                    "title": "{i18n>objectViewTitle}"
+                },
+                "objectNotFound": {
+                    "viewName": "ObjectNotFound",
+                    "viewId": "objectNotFound"
+                },
+                "notFound": {
+                    "viewName": "NotFound",
+                    "viewId": "notFound"
                 }
             }
         },
         "rootView": {
-            "viewName": "ch.novobc.novoinnoappmodule.view.App",
+            "viewName": "ch.novobc.innoappmodule2.view.App",
             "type": "XML",
             "async": true,
-            "id": "App"
+            "id": "app"
         }
     },
     "sap.cloud": {

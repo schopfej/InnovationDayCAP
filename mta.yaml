@@ -1,7 +1,7 @@
 _schema-version: "3.1"
 ID: novoinnoapp
 description: A simple CAP project.
-version: 1.4.3
+version: 1.4.4
 modules:
 - name: novoinnoapp-srv
   type: nodejs
@@ -65,23 +65,9 @@ modules:
     build-result: resources
     requires:
     - artifacts:
-      - chnovobcnovoinnoappmodule.zip
-      name: chnovobcnovoinnoappmodule
-      target-path: resources/
-    - artifacts:
       - chnovobcinnoappmodule2.zip
       name: chnovobcinnoappmodule2
       target-path: resources/
-- name: chnovobcnovoinnoappmodule
-  type: html5
-  path: app/novoinnoappmodule
-  build-parameters:
-    build-result: dist
-    builder: custom
-    commands:
-    - npm install
-    - npm run build:cf
-    supported-platforms: []
 - name: chnovobcinnoappmodule2
   type: html5
   path: app/innoappmodule2
