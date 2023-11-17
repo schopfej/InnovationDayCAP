@@ -1,4 +1,10 @@
 presentationId;timeslot;presentationDesc;referee_refereeId;room_roomId
-49b6514f-7a26-4b5f-b728-6a8000bc1f2a;10:30 - 12:30 Uhr;Künstliche Intelligenz im Finance-Bereich;ref1;room1
-033baf83-5b53-43ff-a9a1-a2fbfbd220a3;13:40 - 14:10 Uhr;Digitalisierung in der Technik - SAP Integration von IoT Services bei der BVB;ref2;room2
-f1c09190-b1a1-40ba-94d7-b5cd03c2dd11;14:20 - 14:50 Uhr;SAP HCM for SAP S/4HANA - Überblick und Erfahrungsbericht;ref3;room1
+pres1;13:40 - 14:10 Uhr;Digitalisierung in der Technik - SAP Integration von IoT Services bei der BVB;ref1;Sky Lounge 3
+pres2;13:40 - 14:10 Uhr;Künstliche Intelligenz im Finance-Bereich;ref2;Champions Lounge
+pres3;13:40 - 14:10 Uhr;SAP HCM for SAP S/4HANA - Überblick und Erfahrungsbericht;ref3;Sky Lounge 1+2
+pres4;14:20 - 14:50 Uhr;Bernmobil - schlanke & technische Conversion mit Ablösung SRM durch SSP;ref1;Skylounge 3
+pres5;14:20 - 14:50 Uhr;SAP Integration Suite - die Zukunft des Datenflusses in hybriden SAP-Systemlandschaften und ihren Umsystemen;ref2;Champions Lounge
+pres6;14:20 - 14:50 Uhr;SAP Spatial Asset Management - Verbesserung der Datenqualität durch Visualisierung;ref3;Skylounge 1+2
+pres7;15:30 - 16:00 Uhr;Erweiterte Analytics-Funktionen durch Nutzung von KI;ref1;Champions Lounge
+pres8;15:30 - 16:00 Uhr;Low-Code-Entwicklung mobiler Anwendungen und KI zur Digitalisierung von Kundenserviceprozessen;ref2;Skylounge 1+2
+pres9;15:30 - 16:00 Uhr;SAP Quality Issue Resolution - So lösen Sie in Zukunft Qualitätsprobleme mit Lieferanten und Kunden;ref3;Skylounge 3

@@ -1,5 +1,210 @@
 participantId;firstName;lastName;function;email;organisation;department;street;number;postal;city
-stefan@tester.sap.com;Stefan;Hänggi;;stefan@tester.sap.com;;;;;3000;						
-thomas.santinelli@unibas.ch;Thomas;Santinelli;;thomas.santinelli@unibas.ch;;;;;1000;							
-severin.hauser@bfh.ch;Severin;Hauser;;severin.hauser@bfh.ch;;;;;3000;			
-patrick.wengeratnovo-bc.ch;Patrick;Wenger;;patrick.wenger@novobc-ch;;;;;3000;
+urs.marti@armasuisse.ch;Urs;Marti;TPL BLM / Stv.Leiter Ressourcensteuerung;urs.marti@armasuisse.ch;;ERP FINBE;Guisanplatz;1;3003;Bern
+christina.baira@ar.admin.ch;Christina;Baira;Projektkauffrau;christina.baira@ar.admin.ch;;;Guisanplatz;1;3003;Bern
+andrea-eva.egger@armasuisse.ch;Andrea Eva;Egger;Spezialistin Integrationsmanagement;andrea-eva.egger@armasuisse.ch;;;Guisanplatz;1;3003;Bern
+stefan.marti@armasuisse.ch;Stefan;Marti;Leiter Controlling und Projektmanagement;stefan.marti@armasuisse.ch;;;Guisanplatz;1;3003;Bern
+martin.messerli@armasuisse.ch;Martin;Messerli;Leiter Softwarebetrieb;martin.messerli@armasuisse.ch;;;Guisanplatz;1;3003;Bern
+Roman.schwarz@ar.admin.ch;Roman;Schwarz;Super User SAP;Roman.schwarz@ar.admin.ch;;;Guisanplatz;1;3003;Bern
+oliver.finger@ar.admin.ch;Oliver;Finger;Kompetenzbereich Einkauf und Kooperationen;oliver.finger@ar.admin.ch;;Fachbereich Einkauf Dritte;Guisanplatz;1;3003;Bern
+jochen.baehr@ar.admin.ch;Jochen;Bähr;SAP Super User;jochen.baehr@ar.admin.ch;;;Guisanplatz;1;3003;Bern
+Beat.Buehlmann@armasuisse.ch;Beat;Bühlmann;PL ERP Immobilien;Beat.Buehlmann@armasuisse.ch;;ERP Immobilien;Guisanplatz;1;3003;Bern
+ralph.fellmann@ar.admin.ch;Ralph;Fellmann;ERPSYSVAR, ERP IMMO TPL;ralph.fellmann@ar.admin.ch;;;Guisanplatz;1;3003;Bern
+michel.roth@armasuisse.ch;Michel;Roth;DM - TPL;michel.roth@armasuisse.ch;;;Guisanplatz;1;3003;Bern
+michael.ryf@ar.admin.ch;Michael;Ryf;Teilprojektleiter ERP Immo;michael.ryf@ar.admin.ch;;;Guisanplatz;1;3003;Bern
+Michael.Stauffer@armasuisse.ch;Michael;Stauffer;Leiter Fachbereich Management Dispositionsbestand;Michael.Stauffer@armasuisse.ch;;;Guisanplatz;1;3003;Bern
+Ueli.Stettler@armasuisse.ch;Ueli;Stettler;Fachteam Finanzen;Ueli.Stettler@armasuisse.ch;;;Guisanplatz;1;3003;Bern
+susanne.waldmeier@ar.admin.ch;Susanne;Waldmeier;;susanne.waldmeier@ar.admin.ch;;;Guisanplatz;1;3003;Bern
+stefan.gut@ar.admin.ch;Stefan;Gut;Leiter Controlling;stefan.gut@ar.admin.ch;;Unternehmensentwicklung und Controlling;Guisanplatz;1;3003;Bern
+silvia.sterchi@vtg.admin.ch;Silvia;Sterchi;Systemplanerin;silvia.sterchi@vtg.admin.ch;;A Plan IKT;Papiermühlestrasse;20;3003;Bern
+peter.aebersold@vtg.admin.ch;Peter;Aebersold;Leiter Debitoren-/Anlagenbuchhaltung;peter.aebersold@vtg.admin.ch;;Finanzen Verteidigung;Papiermühlestrasse;20;3003;Bern
+rolf.buerki@vtg.admin.ch;Rolf;Bürki;Leiter Finanzielles Rechnungswesen V;rolf.buerki@vtg.admin.ch;;Finanzen Verteidigung;Papiermühlestrasse;20;3003;Bern
+stephanie.fluck@vtg.admin.ch;Stephanie;Fluck;Projektleiterin Finanzen und Beschaffung;stephanie.fluck@vtg.admin.ch;;Finanzen Verteidigung;Papiermühlestrasse;20;3003;Bern
+damian-matteo.rennhard@vtg.admin.ch;Damian M.;Rennhard;Leiter Tagesgeschäft / stv. Leiter Kreditoren;damian-matteo.rennhard@vtg.admin.ch;;Finanzen Verteidigung;Schermenwaldstrasse;13;3063;Ittigen
+norbert.schwaller@vtg.admin.ch;Norbert;Schwaller;Programmleiter ERP Systeme V/ar (ERPSYSVAR);norbert.schwaller@vtg.admin.ch;;Finanzen Verteidigung;Papiermühlestrasse;20;3003;Bern
+Balthasar.grueter@vtg.admin.ch;Balthasar;Grüter;IT & Projektmanager HR V;Balthasar.grueter@vtg.admin.ch;;Personal Verteidigung;Bolligenstrasse;56;3003;Bern
+hans-peter.jenni@vtg.admin.ch;Hans-Peter;Jenni;Senior Project Manager;hans-peter.jenni@vtg.admin.ch;;;Bolligenstrasse;56;3003;Bern
+vijekanth.sambasivam@bvb.ch;Vijetkanth;Sambasivam;Leiter Planung, Reporting und Systeme;vijekanth.sambasivam@bvb.ch;;Finanzen;Claragraben;55;4005;Basel
+hans-peter.guentert@bvb.ch;Hans-Peter;Güntert;Finance Business Analyst;hans-peter.guentert@bvb.ch;;Finanzwesen;Claragraben;55;4005;Basel
+ralf.doser@bvb.ch;Ralf;Doser;Leiter Betriebsbuchhaltung;ralf.doser@bvb.ch;;;Claragraben;5;4005;Basel
+oliver.ferner@bvb.ch;Oliver;Ferner;Senior Business Analyst - Planung, Reporting & Systeme;oliver.ferner@bvb.ch;;;Claragraben;55;4005;Basel
+daniel.mangani@bvb.ch;Daniel;Mangani;CFO;daniel.mangani@bvb.ch;;;Claragraben;55;4005;Basel
+daniel.staeheli@sbb.ch;Daniel;Stäheli;Applikations- und Prozessmanager Controlling;daniel.staeheli@sbb.ch;;;Hilfikerstrasse;1;3000;Bern 65
+philipp.ammann@bfh.ch;Philipp;Ammann;Fachspezialist Finanzbuchhaltung;philipp.ammann@bfh.ch;;Finanzen und Controlling;Falkenplatz;24;3012;Bern
+adrian.daepp@bfh.ch;Adrian;Däpp;Co-Abteilungsleiter Finanzen & Controlling;adrian.daepp@bfh.ch;;Finanzen und Controlling;Falkenplatz;24;3012;Bern
+michele.casserini@bfh.ch;Michele;Casserini;Leiter Geschäftsapplikationen, Projekte & Portfolio;michele.casserini@bfh.ch;;Geschäftsapplikationen, Projekte & Portfolio;Falkenplatz;24;3012;Bern
+sheila.haldemann@bfh.ch;Sheila;Haldemann;Leiterin Geschäftsapplikationen;sheila.haldemann@bfh.ch;;Services;Falkenplatz;24;3012;Bern
+sandra.schneider@bfh.ch;Sandra;Schneider;Leiterin Kompetenzzentrum SAP;sandra.schneider@bfh.ch;;Services/Geschäftsapplikationen;Falkenplatz;24;3012;Bern
+david.roemer@bit.admin.ch;David;Römer;ISBO;david.roemer@bit.admin.ch;;SAP Security;Eichenweg;1;3052;Zollikofen
+stefan.altendorfer@bit.admin.ch;Stefan;Altendorfer;Product Manager SAP Development;stefan.altendorfer@bit.admin.ch;;;Eichenweg;1;3052;Zollikofen
+vincent.brechbuehl@bit.admin.ch;Vincent;Brechbühl;Leiter Entwicklung Web;vincent.brechbuehl@bit.admin.ch;;;Eichenweg;1;3052;Zollikofen
+stefan.kueffer@bit.admin.ch;Stefan;Küffer;SAP Beratung;stefan.kueffer@bit.admin.ch;;;Monbijoustrasse;74;3003;Bern
+markus.panizzoli@bit.admin.ch;Markus;Panizzoli;Product Manager SAP Development;markus.panizzoli@bit.admin.ch;;;Eichenweg;1;3052;Zollikofen
+marko.zeugner@bls.ch;Marko;Zeugner;SAP BI;marko.zeugner@bls.ch;;Informatik;Genfergasse;11;3001;Bern
+Stefan.Blaser@bls.ch;Stefan;Blaser;Leiter CC SAP (BTAE);Stefan.Blaser@bls.ch;;;Genfergasse;11;3001;Bern
+stefan.fuhrer@bls.ch;Stefan;Fuhrer;Leiter Management Dienste;stefan.fuhrer@bls.ch;;;Genfergasse;11;3001;Bern
+lejla.imamovic@post.ch;Lejla;Imamovic;Leiterin Finance & Procurement Solutions, F341;lejla.imamovic@post.ch;;Kompetenzpartnerin Support & Schulung;Wankdorfallee;4;3030;Bern
+claude.johner@bls.ch;Claude;Johner;Fachexperte Accounting & Controlling;claude.johner@bls.ch;;;Genfergasse;11;3001;Bern
+adrian.wehrli@bls.ch;Adrian;Wehrli;Leiter SAP Logistik (BTAEL);adrian.wehrli@bls.ch;;;Genfergasse;11;3001;Bern
+roland.bollin@babs.admin.ch;Roland;Bollin;Int. Beziehungen und Stv. Stabschef;roland.bollin@babs.admin.ch;;;Guisanplatz;1B;3003;Bern
+markus.stark@bfs.admin.ch;Markus;Stark;Projektleiter;markus.stark@bfs.admin.ch;;Ressourcen;Espace de l'Europe;10;2010;Neuchâtel
+martin.peiner@be.ch;Martin;Peiner;Leiter Datenmanagement;martin.peiner@be.ch;;Amt für Grundstücke und Gebäude;Reiterstrasse;11;3013;Bern
+ildiko.althaus@be.ch;Ildiko;Althaus;Mitarbeiterin CC SAP;ildiko.althaus@be.ch;;GS - CC SAP;Reiterstrasse;11;3013;Bern
+rolf.marchand@be.ch;Rolf;Marchand;Leiter CC SAP;rolf.marchand@be.ch;;GS - CC SAP;Reiterstrasse;11;3013;Bern
+leocarl.potjans@be.ch;Leo Carl;Potjans;Mitarbeiter CC SAP;leocarl.potjans@be.ch;;GS - CC SAP;Reiterstrasse;11;3013;Bern
+timo.straumann@be.ch;Timo;Straumann;CCSAP Mitarbeiter;timo.straumann@be.ch;;GS - CC SAP;Reiterstrasse;11;3013;Bern
+nina.scheurer@be.ch;Nina;Scheurer;Leiterin Support;nina.scheurer@be.ch;;BS SAP;Reiterstrasse;11;3013;Bern
+adrian.wey@css.ch;Adrian;Wey;Ressortleiter Softwareentwicklung Finanzen/HR;adrian.wey@css.ch;;Softwareentwicklung Finanzen/HR;Tribschenstrasse;21;6002;Luzern
+christoph.bornhauser@mobiliar.ch;Christoph;Bornhauser;BW/4HANA / S/4HANA Reporting Entwickler;christoph.bornhauser@mobiliar.ch;;Dev. Business Intelligence 1;Bundesgasse;35;3011;Bern
+daniel.egger@mobi.ch;Daniel;Egger;SAP Spezialist CO;daniel.egger@mobi.ch;;;Bundesgasse;35;3011;Bern
+daniel.pfister@efv.admin.ch;Daniel;Pfister;Leiter Prozesssteuerung Finanzplanung und Budgetierung FRW;daniel.pfister@efv.admin.ch;;Finanzplanung/Budgetierung;Monbijoustrasse;118;3003;Bern
+urs.julmy@efv.admin.ch;Urs;Julmy;Leiter Grundlagen und Prozessführung;urs.julmy@efv.admin.ch;;Grundlagen und Prozessführung;Monbijoustrasse;118;3003;Bern
+stefan.johner@efv.admin.ch;Stefan;Johner;Leiter Informatik;stefan.johner@efv.admin.ch;;Informatik;Monbijoustrasse;118;3003;Bern
+thomas.ducrey@efv.admin.ch;Thomas;Ducrey;Leiter Prozess Finanzplanung und Budget;thomas.ducrey@efv.admin.ch;;;Monbijoustrasse;118;3003;Bern
+mario.stempfel@efv.admin.ch;Mario;Stempfel;;mario.stempfel@efv.admin.ch;;;Monbijoustrasse;118;3003;Bern
+reinhard.imboden@epa.admin.ch;Reinhard;Imboden;;reinhard.imboden@epa.admin.ch;;Personaldatenmanagement und Zentrale Dienste;Eigerstrasse;71;3003;Bern
+christian.fluetsch@epa.admin.ch;Christian;Flütsch;Leiter Grundlagen und QS;christian.fluetsch@epa.admin.ch;;;Eigerstrasse;71;3003;Bern
+Stefan.Pedevilla@amag.ch;Stefan;Pedevilla;Senior Projektleiter;Stefan.Pedevilla@amag.ch;;;Alte Steinhauserstrasse;12;6330;Cham
+roland.burri@ewb.ch;Roland;Burri;SAP Teamleiter;roland.burri@ewb.ch;;Informatik;Monbijoustrasse;11;3001;Bern
+johann.dossenbach@eawag.ch;Johann;Dossenbach;Leiter Rechnungswesen;johann.dossenbach@eawag.ch;;Finanzen;Überlandstrasse;133;8600;Dübendorf
+marc.patzelt@zurich-airport.com;Marc;Patzelt;ICT Application Engineer SAP;marc.patzelt@zurich-airport.com;;Finance & Real Estate;;;8058;Zürich-Flughafen
+Flavio.Roncoroni@zurich-airport.com;Flavio;Roncoroni;Portfolio Management;Flavio.Roncoroni@zurich-airport.com;;;;;8058;Zürich-Flughafen
+michael.jowanka@sunrise.ch;Michael;Jowanka;  ;michael.jowanka@sunrise.ch;;;Schwarztorstrasse;53;3003;Bern
+dieter.schober@vtg.admin.ch;Dieter;Schober;Verantwortlicher Finanzcontrolling;dieter.schober@vtg.admin.ch;;;Stauffacherstrasse;65;3003;Bern
+juerg.umhang@gs-efd.admin.ch;Jürg;Umhang;Projektleiter IKT;juerg.umhang@gs-efd.admin.ch;;Informatik und Telekommunikation;Monbijoustrasse;118;3003;Bern
+tobias.deprato@ag.ch;Tobias;Deprato;Controller;tobias.deprato@ag.ch;;Controlling & Administration;Tellistrasse;67;5001;Aarau
+nikolaus.seitzinger@ag.ch;Nikolaus D.;Seitzinger;Leiter Controlling und Administration;nikolaus.seitzinger@ag.ch;;Controlling & Administration;Tellistrasse;67;5001;Aarau
+christian.kaiser@ag.ch;Christian;Kaiser;SAP-Spezialist BI/BW;christian.kaiser@ag.ch;;Informatik Aargau;Postfach;;5001;Aarau
+david.germann@ag.ch;David;Germann;Modulbetreuer Rechnungswesen;david.germann@ag.ch;;Informatik Aargau, System- und Basisbetrieb;Postfach;;5001;Aarau
+jeannette.merz@bl.ch;Jeannette;Merz;Leiterin Koordinationsstelle Versicherungen;jeannette.merz@bl.ch;;Finanzverwaltung;Rheinstrasse;33b;4410;Liestal
+michael.boerlin@bl.ch;Michael;Börlin;HR Support;michael.boerlin@bl.ch;;Personalamt DLZ;Rheinstrasse;28;4410;Liestal
+oliver.gattlen@bl.ch;Oliver;Gattlen;Teamleitung HR-Support;oliver.gattlen@bl.ch;;Personalamt;Rheinstrasse;24;4410;Liestal
+patrizia.mundschin@bl.ch;Patrizia;Mundschin;Power User SAP Zeitwirtschaft;patrizia.mundschin@bl.ch;;Personalamt / HR Support;Rheinstrasse;28;4410;Liestal
+dani.burgener@bl.ch;Dani;Burgener;Leiter Digitale Transformation HR;dani.burgener@bl.ch;;Personalamt / HR-IT;Rheinstrasse;28;4410;Liestal
+dominik.fischer@bl.ch;Dominik;Fischer;Abteilungsleiter Regierungscontrolling;dominik.fischer@bl.ch;;Regierungscontrolling;Rheinstrasse;33b;4410;Liestal
+jeannette.sommer@bl.ch;Jeannette;Sommer;Leiterin SAP;jeannette.sommer@bl.ch;;Zentrale Informatik, Digitale Transformation;Rheinstrasse;33b;4410;Liestal
+rolf.haering@bl.ch;Rolf;Häring;Leiter Zentrales Finanz- und Rechnungswesen Kt. BL;rolf.haering@bl.ch;;Generalsekretariat;Bahnhofstrasse;5;4410;Liestal
+Toni.Widmer@bs.ch;Toni;Widmer;SAP-Modulbetreuer PKC;Toni.Widmer@bs.ch;;Finanzverwaltung;Fischmarkt;10;4001;Basel
+urs.schneider1@be.ch;Urs;Schneider;Abteilungsvorsteher CCoE;urs.schneider1@be.ch;;CCoE SAP;Münsterplatz;12;3011;Bern
+andreas.buri@be.ch;Andreas;Buri;Lösungsarchitekt SAP;andreas.buri@be.ch;;;Münsterplatz;12;3011;Bern
+patrick.zurbriggen@lu.ch;Patrick;Zurbriggen;SAP CCC;patrick.zurbriggen@lu.ch;;Dienststelle Informatik;Ruopigenplatz;1;6015;Luzern
+nicolas.fallet-sfin@ne.ch;Nicolas;Fallet;Leiter Fachbereich Informationssysteme;nicolas.fallet-sfin@ne.ch;;Service financier;Avenue des Cadolles;7;2002;Neuchâtel
+sibylle.walter@fd.so.ch;Sibylle;Walter;Controllerin;sibylle.walter@fd.so.ch;;Controllerdienst;Barfüssergasse;24;4509;Solothurn
+Tamara.Jezler@previsio.ch;Tamara;Jezler;Vorsitzende der GL;Tamara.Jezler@previsio.ch;;;Barfüssergasse;24;4509;Solothurn
+reto.fahrni@sk.so.ch;Reto;Fahrni;Chief Digital Officer;reto.fahrni@sk.so.ch;;Kompetenzzentrum  Digitale Verwaltung;Rathaus;;4509;Solothurn
+andgat@admin.vs.ch;Andreas;Gattlen;BA FI;andgat@admin.vs.ch;;Kompetenzcenter SAP - Finanzen;Place de la Planta;3;1950;Sion
+damian.locher@admin.vs.ch;Damian;Locher;Chef Hauptbuchhaltung;damian.locher@admin.vs.ch;;Kompetenzcenter SAP - Finanzen;Place de la Planta;3;1950;Sion
+sandro.beetschen@bd.zh.ch;Sandro;Beetschen;Leiter Immobilieninformatik;sandro.beetschen@bd.zh.ch;;Immobilienamt;Walcheplatz;1;8090;Zürich
+gianandrea.rezzoli@kapo.sg.ch;Gian Andrea;Rezzoli;Leiter Personalentwicklung;gianandrea.rezzoli@kapo.sg.ch;;Personalentwicklung;Klosterhof;12;9001;St. Gallen
+Daniel.Weber@vtg.admin.ch;Daniel;Weber;Stv. Leiter IT & Prozessmanagement HR V;Daniel.Weber@vtg.admin.ch;;;Bolligenstrasse;56;3003;Bern
+daniel.burkart@vtg.admin.ch;Daniel;Burkart;Integrationsmanager META Prozess LW;daniel.burkart@vtg.admin.ch;;Kommando Operationen, NSF Luftwaffe;Eichistrasse;1;6055;Alpnach Dorf
+rita.todesco@vtg.admin.ch;Rita;Todesco;SAP Integrationsmanagement LW;rita.todesco@vtg.admin.ch;;Luftwaffenstab A4 Logistik;Ueberlandstrasse;255;8600;Dübendorf
+Ernst.Eigel@vtg.admin.ch;Ernst;Eigel;Chef SAP Integrationsmanagement LW;Ernst.Eigel@vtg.admin.ch;;;Ueberlandstrasse;255;8600;Dübendorf
+alexandre.tripet@vtg.admin.ch;Alexandre;Tripet;Chef Org. Entw. / Chef PMS;alexandre.tripet@vtg.admin.ch;;;Bolligenstrasse, Gebäude;54;3003;Bern
+roland.vonaesch@vtg.admin.ch;Roland;von Aesch;Integrationsmanager SAP Disposition ;roland.vonaesch@vtg.admin.ch;;;Papiermühlestrasse;20;3003;Bern
+beat.ackermann@vtg.admin.ch;Beat;Ackermann;Business Process Engineer;beat.ackermann@vtg.admin.ch;;IKT - Projekte;Viktoriastrasse;85;3003;Bern
+amos.pedrini@vtg.admin.ch;Amos;Pedrini;Projektleiter;amos.pedrini@vtg.admin.ch;;IKT - Projekte;Viktoriastrasse;85;3003;Bern
+terence.schwab@vtg.admin.ch;Terence;Schwab;Projektleiter;terence.schwab@vtg.admin.ch;;IKT - Projekte;Viktoriastrasse;85;3003;Bern
+oliver.andres@vtg.admin.ch;Oliver;Andres;Business Process Engineer Stabchef/ Stv C ERP;oliver.andres@vtg.admin.ch;;STVC IK ERP;Viktoriastrasse;85;3003;Bern
+michele.marino@vtg.admin.ch;Michele;Marino;Chef Material- und Datenmanagement;michele.marino@vtg.admin.ch;;STVC SYMGT MATDM;Viktoriastrasse;85;3003;Bern
+Romain.Bapst@vtg.admin.ch;Romain;Bapst;Business Analyst / ISBO;Romain.Bapst@vtg.admin.ch;;;Viktoriastrasse;85;3003;Bern
+Marcel.Koch@vtg.admin.ch;Marcel;Koch;Integrationsmanager Nachschub;Marcel.Koch@vtg.admin.ch;;;Lenzburgstrasse;25;5504;Othmarsingen
+mahmut.sahin@vtg.admin.ch;Mahmut;Sahin;Chef Nachschub;mahmut.sahin@vtg.admin.ch;;;Lenzburgerstrasse;86;5504;Othmarsingen
+daniel.rohner@phsg.ch;Daniel;Rohner;Ressortleiter Finanzen & Controlling;daniel.rohner@phsg.ch;;Finanzen & Controlling;Notkerstrasse;27;9000;St. Gallen
+markus.seitz@phsg.ch;Markus;Seitz;Verwaltungsdirektor;markus.seitz@phsg.ch;;Verwaltung;Notkerstrasse;27;9000;St. Gallen
+enrico.deluca@publica.ch;Enrico;De Luca;Leiter Finanzbuchhaltung;enrico.deluca@publica.ch;;Buchhaltung;Eigerstrasse;57;3007;Bern
+daniela.grossenbacher@publica.ch;Daniela;Grossenbacher;Leiterin Controlling;daniela.grossenbacher@publica.ch;;Buchhaltung;Eigerstrasse;57;3007;Bern
+sandra.riedo@publica.ch;Sandra;Riedo;Applikationsmanagerin SAP;sandra.riedo@publica.ch;;Informatik;Eigerstrasse;57;3007;Bern
+claudio.casutt@post.ch;Claudio;Casutt;Prozesse und Services Reporting;claudio.casutt@post.ch;;Prozess- und Servicemanagement Führungssysteme;Wankdorfallee;4;3030;Bern
+robinlea.carrera@post.ch;Robin Lea;Carrera;SAP Modulberaterin FI mit Integration ins RE-FX;robinlea.carrera@post.ch;;;Webergutstrasse;12;3030;Bern (Zollikofen)
+jan.locher@post.ch;Jan;Locher;Leiter Business Intelligence;jan.locher@post.ch;;Informatik;Webergutstrasse;12;3030;Bern (Zollikofen)
+stefan.leuenberger@fd.so.ch;Stefan;Leuenberger;Applikationsmanager SAP;stefan.leuenberger@fd.so.ch;;Kompetenzzentrum SAP CCC;Barfüssergasse;24;4509;Solothurn
+simon.gobeli@post.ch;Simon;Gobeli;Applikationsmanager SAP RE-FX;simon.gobeli@post.ch;;;Wankdorfallee;4;3014;Bern
+rene.bucher@postauto.ch ;René;Bucher;Leiter Business Service Management SAP;rene.bucher@postauto.ch ;;Systeme und Services;Engehaldenstrasse;39;3030;Bern
+stefan.fahrni.1@postfinance.ch;Stefan;Fahrni;Applikationsverantwortlicher SAP BI;stefan.fahrni.1@postfinance.ch;;Dienste Finanzen;Mingerstrasse;20;3030;Bern
+bianka.hofmann@postfinance.ch;Bianka;Hofmann;Leiterin Fachsupport SAP-Systeme;bianka.hofmann@postfinance.ch;;Dienste Finanzen;Mingerstrasse;20;3030;Bern
+marcel.schlatter@postfinance.ch;Marcel;Schlatter;Leiter Dienste Finanzen;marcel.schlatter@postfinance.ch;;;Engehaldenstrasse;35;3030;Bern
+Michael.Friederich@ruag.ch;Michael;Friederich;ILS Specialist Fachverantw. ETK, Business Domain Leader;Michael.Friederich@ruag.ch;;;Allmendstrasse;86;3602;Thun
+juerg.bleuer@sbb.ch;Jürg;Bleuer;Systemarchitekt;juerg.bleuer@sbb.ch;;IT-SCF-HR-,F-SCM,Immobilien;Hilfikerstrasse;1;3000;Bern 65
+ursula.sinzig@sbb.ch;Ursula;Sinzig;Modulbetreuung FI;ursula.sinzig@sbb.ch;;SAP CC, Finanzen;Hilfikerstrasse;1;3000;Bern 65
+ulrike.bischler@sbb.ch;Ulrike;Bischler;Release Train Engineer Logistik Produkion und Verkauf;ulrike.bischler@sbb.ch;;Solution Center Finanzen, HR, SCM und Immobilien;Hilfikerstrasse;1;3000;Bern 65
+eric.baumgartner@sbb.ch;Eric;Baumgartner;Release Train Engineer;eric.baumgartner@sbb.ch;;;Hilfikerstrasse;1;3000;Bern 65
+silvan.vonarx@sbb.ch;Silvan;von Arx;Bereichsleiter SAP Entwicklung;silvan.vonarx@sbb.ch;;;Hilfikerstrasse;1;3000;Bern 65
+arno.hunger@sbb.ch;Arno;Hunger;ERP Engineer;arno.hunger@sbb.ch;;Digital Solution Finanzen;Hilfikerstrasse;1;3000;Bern 65
+edi.em.mueller@sbb.ch;Edi;Müller;Facility Management Digitalisierung;edi.em.mueller@sbb.ch;;Immobilien RailClean;Trüsselstrasse;2;3065;Bern 65
+beat.meier@bk.admin.ch;Beat;Meier;Produktmanager SAP /Koordination Supportprozesse Bund;beat.meier@bk.admin.ch;;Koordination IKT-Einsatz Supportprozesse;Bundeshaus West;;3003;Bern
+martin.pislcajt@bk.admin.ch;Martin;Pislcajt;Programmleiter;martin.pislcajt@bk.admin.ch;;DTI-SPL;Bundeshaus West;;3003;Bern
+johannes.wolf@snb.ch;Johannes;Wolf;Stv. Leiter Rechnungswesen;johannes.wolf@snb.ch;;Rechnungswesen;Bundesplatz;1;3003;Bern
+urs.kaestli@snb.ch;Urs;Kästli;Controller / Business Analyst;urs.kaestli@snb.ch;;;Bundesplatz;1;3003;Bern
+markus.maissen@snb.ch;Markus;Maissen;Controller;markus.maissen@snb.ch;;;Bundesplatz;1;3003;Bern
+peter.feier@spital.so.ch;Peter;Feier;Modulverantwortlicher FI/CO SoH;peter.feier@spital.so.ch;;Informatik;Schöngrünstrasse;36a;4500;Solothurn
+giuseppe.giudice@somnitec.ch;Giuseppe;Giudice;Teamlead SAP Basis;giuseppe.giudice@somnitec.ch;;;Bahnhofstrasse;270;4563;Gerlafingen
+philipp.gfeller@seco.admin.ch;Philipp;Gfeller;;philipp.gfeller@seco.admin.ch;;Strategie und Service-Management;Holzikofenweg;36;3003;Bern
+pascal.rumo@seco.admin.ch;Pascal;Rumo;;pascal.rumo@seco.admin.ch;;Strategie und Service-Management;Holzikofenweg;36;3003;Bern
+martin.hofer@seco.admin.ch;Martin;Hofer;Wirtschaftsinformatiker DWH/BI;martin.hofer@seco.admin.ch;;;Finkenhubelweg;12;3003;Bern
+daniel.braun@bern.ch;Daniel;Braun;Applications;daniel.braun@bern.ch;;Informatikdienste;Bümplizstrasse;45;3027;Bern
+pia.locher@bern.ch;Pia;Locher;Modulspezialistin BW;pia.locher@bern.ch;;;Bümplizstrasse;45;3027;Bern
+Patrick.villard@biel-bienne.ch;Patrick;Villard;Leiter Abteilung Finanzen und Steuern;Patrick.villard@biel-bienne.ch;;Finanzen;Rüschlistrasse;14;2501;Biel / Bienne
+helene.mourgue@biel-bienne.ch;Hélène;Mourgue d'Algue;Leiterin Abteilung Informatik und Logistik;helene.mourgue@biel-bienne.ch;;Informatik und Logistik;Rüschlistrasse;14;2501;Biel / Bienne
+jana.sommer@biel-bienne.ch;Jana;Sommer;Produtkmanagerin ERP;jana.sommer@biel-bienne.ch;;;Rüschlistrasse;14;2501;Biel / Bienne
+martin.hummel@zuerich.ch;Martin;Hummel;SAP Fachspezialist;martin.hummel@zuerich.ch;;Liegenschaftenverwaltung;Morgartenstrasse;29;8022;Zürich
+michael.andres@zuerich.ch;Michael;Andres;Leiter Rechnungswesen;michael.andres@zuerich.ch;;Tiefbauamt;Werdmühleplatz;3;8001;Zürich
+natascha.fischer@zuerich.ch;Natascha;Fischer;Fachspezialistin Rechnungswesen;natascha.fischer@zuerich.ch;;Tiefbauamt;Werdmühleplatz;3;8001;Zürich
+andreas.pfaeffli2@zuerich.ch;Andreas;Pfäffli;Leiter Controlling;andreas.pfaeffli2@zuerich.ch;;Tiefbauamt;Albisriederstrasse;201;8047;Zürich
+stefan.gerber@swisspdefence.com;Stefan;Gerber;Teamleiter Finanzen;stefan.gerber@swisspdefence.com;;Finanzen;Uttigenstrasse;67;3602;Thun
+stefan.urwyler@swissmedic.ch;Stefan-André;Urwyler;Leiter CCC SAP;stefan.urwyler@swissmedic.ch;;;Hallerstrasse;7;3000;Bern 9
+christian.platzer@tertianum.ch;Christian;Platzer;Leiter IT;christian.platzer@tertianum.ch;;Informatik;Giessenplatz;1;8600;Dübendorf
+matthias.kaeser@tertianum.ch;Matthias;Käser;IT Applikations-Manager SAP;matthias.kaeser@tertianum.ch;;;Giessenplatz;1;8600;Dübendorf
+dominik.borer@unibas.ch;Dominik;Borer;Controller;dominik.borer@unibas.ch;;Controlling & Reporting;Petersgraben;35;4001;Basel
+thomas.santinelli@unibas.ch;Thomas;Santinelli;Leiter Projekte;thomas.santinelli@unibas.ch;;Projekte;;;4001;Basel
+janine.haas@unibas.ch;Janine;Haas Husi;Leiterin SAP CC;janine.haas@unibas.ch;;SAP CC;;;4001;Basel
+juergen.lang@unisg.ch;Jürgen;Lang;Leiter Controlling;juergen.lang@unisg.ch;;Finanzen;Dufourstrasse;50;9000;St. Gallen
+riccardo.morando@unisg.ch;Riccardo;Morando;Leiter Rechnungswesen;riccardo.morando@unisg.ch;;Rechnungswesen;Dufourstrasse;50;9000;St. Gallen
+roger.kellenberger@unisg.ch;Roger;Kellenberger;Leiter Finanzen;roger.kellenberger@unisg.ch;;;Bodanstrasse;3;9000;St. Gallen
+tobias.kaeser@vbz.ch;Tobias;Käser;Leiter SAP CCoE;tobias.kaeser@vbz.ch;;;Luggwegstrasse;65;8048;Zürich
+michael.zwahlen@wwz.ch;Michael;Zwahlen;Abteilungsleiter Einkauf und Logistik;michael.zwahlen@wwz.ch;;Einkauf und Logistik;Chollerstrasse;24;6301;Zug
+adrian.egger@ypsomed.com;Adrian;Egger;Team Leader SAP BI;adrian.egger@ypsomed.com;;;Weissensteinstrasse;26;4503;Solothurn
+sascha.spasovski@cablex.ch;Sascha;Spasovski;CIO;sascha.spasovski@cablex.ch;;;Tannackerstrassse;7;3073;Gümligen
+martina.meyer@ag.ch;Martina;Meyer;Immobilienbewirtschafterin;martina.meyer@ag.ch;;Immobilien;Tellistrasse;67;5001;Aarau
+natalie.rickertsentschudin@vtg.admin.ch;Natalie;Rickertsen Tschudin;Projektleiterin HR-IT;natalie.rickertsentschudin@vtg.admin.ch;;Personal;Bolligenstrasse;56;3003;Bern
+mensur.gafuri@vbz.ch;Mensur;Gafuri;  ;mensur.gafuri@vbz.ch;;;Luggwegstrasse;65;8048;Zürich
+"xaver.arnet.extern@dsag-ev.ch
+";Xaver;Arnet;Fachreferent/Manager Ressort DSAG (Schweiz);"xaver.arnet.extern@dsag-ev.ch
+";;;Altrottstrasse;34a;69190;Walldorf
+stephan.haenggi@be.ch;Stephan;Hänggi;Fachbereichsleiter SAP Module;stephan.haenggi@be.ch;;;Münsterplatz;12;3011;Bern
+livia.groeber@bd.zh.ch;Livia;Gröber;Fachperson Strategie und Projekte;livia.groeber@bd.zh.ch;;Immobilienamt;Neumühlequai;10;8090;Zürich
+severin.hauser@bfh.ch;Severin;Hauser;CISO;severin.hauser@bfh.ch;;;Falkenplatz;24;3012;Bern
+darya.suter@ag.ch;Darya;Suter;Controllerin;darya.suter@ag.ch;;Immobilien Aargau, Controlling & Administration;Tellistrasse;67;5001;Aarau
+benno.schuerpf@vtg.admin.ch;Benno;Schürpf;Leiter Digitalisierung LBA;benno.schuerpf@vtg.admin.ch;;;Viktoriastrasse;85;3003;Bern
+ali.celik@vtg.admin.ch;Ali Can;Celik;Business Planning Analyst ;ali.celik@vtg.admin.ch;;;Ueberlandstrasse;255;8600;Dübendorf
+amel.malkoc@be.ch;Amel;Malkoc;Praktikant;amel.malkoc@be.ch;;Generalsekretariat GS;Reiterstrasse;11;3013;Bern
+benjamin.fux@zurich-airport.com;Benjamin;Fux;Teamleader SAP Applications;benjamin.fux@zurich-airport.com;;ICT-FIP;;;8058;Zürich-Flughafen
+stefan.pulfer@xwerk.ch;Stefan;Pulfer;SAP Entwicklung;stefan.pulfer@xwerk.ch;;;Aareweg;14b;3037;Herrenschwanden
+Andre.Maron@ypsomed.com;André ;Maron;SAP BI;Andre.Maron@ypsomed.com;;;Weissensteinstrasse;26;4503;Solothurn
+Ivonne.Rebour@tertianum.ch;Ivonne Magdalene ;Rebour-Bischoff;IT Applikations-Managerin SAP;Ivonne.Rebour@tertianum.ch;;IT Applications;Giessenplatz;1;8600;Dübendorf
+christian.bieri@insel.ch;Christian;Bieri;Interne Revision;christian.bieri@insel.ch;;Interne Revision;Freiburgstrasse;46;3000;Bern
+ronald.ryser@seco.admin.ch;Ronald ;Ryser;;ronald.ryser@seco.admin.ch;;;Finkenhubelweg;12;3003;Bern
+debora.codazzo@vtg.admin.ch;Debora;Codazzo;Assistant Finance Business Partner;debora.codazzo@vtg.admin.ch;;;Schwarztorstrasse;53;3003;Bern
+elmar.stoehr@stgag.ch;Elmar;Stöhr;SAP Applikationsmanager;elmar.stoehr@stgag.ch;;;Waldeggstrasse;8a;8501;Frauenfeld
+fabian.buechel@stgag.ch;Fabian;Büchel;;fabian.buechel@stgag.ch;;;Waldeggstrasse;8a;8501;Frauenfeld
+leandra.kretz@stgag.ch;Leandra;Kretz;Projektleiterin Immobilienmanagement & FM;leandra.kretz@stgag.ch;;;;;;
+david.schneider@be.ch;David;Schneider;SAP Spezialist;david.schneider@be.ch;;BS SAP;Reiterstrasse;11;3013;Bern
+nicole.robinson@vtg.admin.ch;Nicole;Robinson;Finanzverantwortliche Projekt Kommando Cyber;nicole.robinson@vtg.admin.ch;;;Schwarztorstrasse;53;3003;Bern
+Daniel.Steiner@swisspdefence.com;Daniel;Steiner;Controller;Daniel.Steiner@swisspdefence.com;;Finanzen;Uttigenstrasse;67;3602;Thun
+rene.schoch@unisg.ch;René;Schoch;Leiter Immobilien;rene.schoch@unisg.ch;;;Gatterstrasse;1;9000;St. Gallen
+alexander.tasic-herzig@zuerich.ch;Alexander;Tasic;;alexander.tasic-herzig@zuerich.ch;;Liegenschaftsverwaltung Bereich 2;Morgartenstrasse;29;8004;Zürich
+michael.dummermuth@ar.admin.ch;Michael;Dummermuth;Fachspezialist und Teilprojektleiter SAP und Controlling;michael.dummermuth@ar.admin.ch;;KB LU / FG LUPCS;Guisanplatz;1;3003;Bern
+emil.dalipi@bl.ch;Emil;Dalipi;Projektleiter;emil.dalipi@bl.ch;;Personalamt;Rheinstrasse;28;4410;Liestal
+brian.kunz@bl.ch;Brian;Kunz;Leiter HR-Administration;brian.kunz@bl.ch;;Personalamt;Rheinstrasse;28;4410;Liestal
+david.suemegi@bl.ch;David;Sümegi;HR-Support, Sachbearbeiter;david.suemegi@bl.ch;;Personalamt;Rheinstrasse;28;4410;Liestal
+adriano.kilchmann@bl.ch;Adriano;Kilchmann;Sachbearbeiter HR Support und Mitarbeiter Projekte PMO;adriano.kilchmann@bl.ch;;Personalamt DLZ;Rheinstrasse;28;4410;Liestal
+martin.schlup@post.ch;Martin;Schlup;Modulberater Fi/CO;martin.schlup@post.ch;;IT;Webergutstrasse;12;3030;Bern (Zollikofen)
+thuvan.ngo@biel-bienne.ch;Thu Van;Ngo;Produtkmanagerin HR;thuvan.ngo@biel-bienne.ch;;Informatik und Logistik;Rüschlistrasse;14;2501;Biel / Bienne
+dimitrios.diamantis@bl.ch;Dimitrios;Diamantis;Leiter Digitale Transformation;dimitrios.diamantis@bl.ch;;Zentrale Informatik;Rheinstrasse;33b;4410;Liestal
+sophia.kuonen@be.ch;Sophia;Kuonen;Hochschulpraktikantin;sophia.kuonen@be.ch;;BS SAP;Reiterstrasse;11;3013;Bern
+severina.equati@vtg.admin.ch;Severina;Equati;Fachverantwortliche Austattung, Inventar, IT-Verwaltung;severina.equati@vtg.admin.ch;;LFBG NB;Wylerstrasse;52;3003;Bern
+diego.baggiarini@unibas.ch;Diego;Baggiarini; Leiter Cash Management;diego.baggiarini@unibas.ch;;;Steinengraben;5;4001;Basel
+sandrine.steffen@zh.ch;Sandrine;Steffen;Applikation- und SAP Service Managerin;sandrine.steffen@zh.ch;;Personalamt;Walcheplatz;1;;
+marianna.mariano@bl.ch;Marianna;Mariano;Sachbearbeiterin Versicherungsmanagement;marianna.mariano@bl.ch;;Finanzverwaltung;Rheinstrasse;33b;4410;Liestal
+bernhard.haeuselmann@sk.so.ch;Bernhard;Häuselmann;Verantwortlicher Geschäftsarchitektur & strategische Projekte;bernhard.haeuselmann@sk.so.ch;;Kompetenzzentrum  Digitale Verwaltung;;;;
+daniel.luechinger@ag.ch;Daniel;Lüchinger;Projektcontroller;daniel.luechinger@ag.ch;;Controlling und Rechnungswesen;Entfelderstrasse;22;5001;Aarau
+robin.ott@ag.ch;Robin;Ott;SAP Architekt;robin.ott@ag.ch;;SAP CCC;Suhrenmatte;48;5035;Unterentfelden
