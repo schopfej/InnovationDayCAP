@@ -69,7 +69,7 @@ sap.ui.define([
          * @param {sap.ui.base.Event} oEvent the table selectionChange event
          * @public
          */
-        onPress : function (oEvent) {
+        onPressGo : function (oEvent) {
             // The source is the list item that got pressed
             this._showObject(oEvent.getSource());
         },
@@ -83,7 +83,6 @@ sap.ui.define([
             // eslint-disable-next-line fiori-custom/sap-no-history-manipulation, fiori-custom/sap-browser-api-warning
             history.go(-1);
         },
-
 
         onSearch : function (oEvent) {
             if (oEvent.getParameters().refreshButtonPressed) {
@@ -101,7 +100,6 @@ sap.ui.define([
                 }
                 this._applySearch(aTableSearchState);
             }
-
         },
 
         /**
@@ -124,7 +122,6 @@ sap.ui.define([
          * @private
          */
         _showObject : function (oItem) {
-            
             var selectedParticipantId = this.getView().byId("inputMail").getValue();
             selectedParticipantId = "stefan@tester.sap.com" ;
             this.getRouter().navTo("object", {
@@ -148,6 +145,5 @@ sap.ui.define([
                 oViewModel.setProperty("/tableNoDataText", this.getResourceBundle().getText("worklistNoDataWithSearchText"));
             }
         }
-
     });
 });
