@@ -2,13 +2,14 @@
     controllerName="ch.novobc.innoappmodule2.controller.Object"
     xmlns="sap.m"
     xmlns:mvc="sap.ui.core.mvc"
-     xmlns:core="sap.ui.core"
-     xmlns:forms="sap.ui.layout.form"
-     xmlns:uxap="sap.uxap"
+    xmlns:core="sap.ui.core"
+    xmlns:forms="sap.ui.layout.form"
+    xmlns:uxap="sap.uxap"
     xmlns:f="sap.f"
-    xmlns:semantic="sap.f.semantic">
-
-       <Page
+    xmlns:semantic="sap.f.semantic"
+    displayBlock="true"
+>
+    <Page
         id="detail"
         showNavButton="false"
         navButtonPress="handleNavButtonPress"
@@ -30,7 +31,7 @@
                     id="_IDGenObjectAttribute3"
                     text="{participantId}"
                 />
-                  <ObjectAttribute
+                <ObjectAttribute
                     id="_IDGenObjectAttribute4"
                     text="{organisation}"
                 />
@@ -71,28 +72,23 @@
                                     <Text text="{presentation/referee/name}" />
                                     <Label text="{i18n>objectPageBiographie}" />
                                     <Text text="{presentation/referee/bio}" />
-
-                                   
-
-                                   
-
                                     <core:Title
                                         text="{i18n>objectPageAllgInformation}"
                                     />
                                     <Label text="{i18n>objectPageZeit}" />
                                     <Text text="{presentation/timeslot}" />
-                                  
-
-                                     <Label text="{i18n>objectPageZimmer}" />
+                                    <Label text="{i18n>objectPageZimmer}" />
                                     <Text text="{presentation/room/name}" />
-
-                                     <Label text="{i18n>objectPageRoomBeschreibung}" />
-                                    <Text text="{presentation/room/description}" />
-
-                                     <Label text="{i18n>objectPageLocation}" />
+                                    <Label
+                                        text="{i18n>objectPageRoomBeschreibung}"
+                                    />
+                                    <Text
+                                        text="{presentation/room/description}"
+                                    />
+                                    <Label text="{i18n>objectPageLocation}" />
                                     <Text text="{presentation/room/location}" />
 
-                                   
+                                    
                                 </forms:SimpleForm>
                             </content>
                         </Panel>
@@ -100,10 +96,7 @@
                 </ColumnListItem>
             </items>
         </Table>
-
-
-
-         <Table >
+        <Table id="idTableLageplan">
             <columns>
                 <Column width="12em">
                     <Text text="{i18n>objectPageInformationLageplan}" />
@@ -119,51 +112,21 @@
                             class="sapUiResponsiveMargin"
                         >
                             <content>
-                                <forms:SimpleForm
-                                    labelSpanL="4"
-                                    labelSpanM="4"
-                                    editable="false"
-                                    labelSpanS="4"
-                                    emptySpanL="0"
-                                    emptySpanM="0"
-                                    emptySpanS="0"
-                                    maxContainerCols="2"
-                                    layout="ResponsiveGridLayout"
-                                    width="100%"
-                                >
-                                    
-                                    
-                                   
-                                <FlexBox height="100px" alignItems="Center" justifyContent="Center">
-
-<items>
-
-
-</items>
-
-</FlexBox>
-                                   
-
-                                   
-
-                                   
-                                </forms:SimpleForm>
+                               
+                                    <FlexBox
+                                        height="100px"
+                                    >
+                                        <items>
+                                        <Image id="idImage" src="Image/wankdorf.png"></Image>
+                                           
+                                        </items>
+                                    </FlexBox>
+                                
                             </content>
                         </Panel>
                     </cells>
                 </ColumnListItem>
             </items>
         </Table>
-
-
-        
-
-
-
-        <footer>
-            <Bar id="_IDGenBar1">
-                <contentRight />
-            </Bar>
-        </footer>
     </Page>
 </mvc:View>

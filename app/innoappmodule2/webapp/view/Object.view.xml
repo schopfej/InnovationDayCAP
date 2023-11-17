@@ -39,7 +39,7 @@
         </ObjectHeader>
         <Table items="{ path: 'presentations' }">
             <columns>
-                <Column width="12em">
+                <Column >
                     <Text text="{i18n>objectPageInformation}" />
                 </Column>
             </columns>
@@ -54,14 +54,6 @@
                         >
                             <content>
                                 <forms:SimpleForm
-                                    labelSpanL="4"
-                                    labelSpanM="4"
-                                    editable="false"
-                                    labelSpanS="4"
-                                    emptySpanL="0"
-                                    emptySpanM="0"
-                                    emptySpanS="0"
-                                    maxContainerCols="2"
                                     layout="ResponsiveGridLayout"
                                     width="100%"
                                 >
@@ -98,7 +90,7 @@
         </Table>
         <Table id="idTableLageplan">
             <columns>
-                <Column width="12em">
+                <Column>
                     <Text text="{i18n>objectPageInformationLageplan}" />
                 </Column>
             </columns>
@@ -114,10 +106,10 @@
                             <content>
                                
                                     <FlexBox
-                                        height="100px"
+                                      
                                     >
                                         <items>
-                                        <Image id="idImage" src="Image/wankdorf.png"></Image>
+                                        <Image id="idImage" src="Image/wankdorf2.png"></Image>
                                            
                                         </items>
                                     </FlexBox>
