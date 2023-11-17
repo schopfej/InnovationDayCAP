@@ -9,7 +9,7 @@
 
 // module.exports = srv => {
 //     srv.on('READ', 'Participants', async (req, next) => {
-       
+
 //         console.log("req.req.user: " + req.req.user);
 
 //         const items = await next()
@@ -18,11 +18,14 @@
 
 // }
 const cds = require('@sap/cds')
-   module.exports = function (){
-       // Register your event handlers in here, for example, ...
-       this.after ('READ','Participants', each => {
-           if (each.email == 'stefan@tester.sap.com' ) {
-               each.lastName += '--> ACHTUNG';
-           }
-       })
-    }
+module.exports = function () {
+    // Register your event handlers in here, for example, ...
+    this.after('READ', 'Participants', each => {
+        let q1 = "Hallihallo";
+        if (each.email == 'stefan@tester.sap.com') {
+            each.lastName += q1;
+        }
+    })
+}
+
+

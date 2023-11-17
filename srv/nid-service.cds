@@ -8,7 +8,13 @@ service NIDService {
     entity Presentations as projection on my.Presentations;
 
     @readonly
-    entity Timeslot as projection on my.Timeslot;
+    entity ParticipantToPresentation as projection on my.ParticipantToPresentation;
+
+    @readonly
+    entity Referees as projection on my.Referees;
+
+    @readonly
+    entity Rooms as projection on my.Rooms;
 
     //annotate NIDService with @(requires: 'Participant');
 }

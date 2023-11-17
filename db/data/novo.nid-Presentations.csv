@@ -1,4 +1,4 @@
-presentationId;timeslot;presentationDesc
-49b6514f-7a26-4b5f-b728-6a8000bc1f2a;slot1;Künstliche Intelligenz im Finance-Bereich
-033baf83-5b53-43ff-a9a1-a2fbfbd220a3;slot2;Digitalisierung in der Technik - SAP Integration von IoT Services bei der BVB
-f1c09190-b1a1-40ba-94d7-b5cd03c2dd11;slot3;SAP HCM for SAP S/4HANA - Überblick und Erfahrungsberc
+presentationId;timeslot;presentationDesc;referee_refereeId;room_roomId
+49b6514f-7a26-4b5f-b728-6a8000bc1f2a;10:30 - 12:30 Uhr;Künstliche Intelligenz im Finance-Bereich;ref1;room1
+033baf83-5b53-43ff-a9a1-a2fbfbd220a3;13:40 - 14:10 Uhr;Digitalisierung in der Technik - SAP Integration von IoT Services bei der BVB;ref2;room2
+f1c09190-b1a1-40ba-94d7-b5cd03c2dd11;14:20 - 14:50 Uhr;SAP HCM for SAP S/4HANA - Überblick und Erfahrungsbericht;ref3;room1
