@@ -12,7 +12,7 @@
 				</contentLeft>
 			</Bar>
 		</subHeader> -->
-		<Panel expandable="false" expanded="true">
+			<Panel expandable="false" expanded="true">
 			<content>
 		
 		<f:SimpleForm id="SimpleFormChange354"
@@ -27,8 +27,8 @@
 								
 				
 
-				<Input id="inputMail" placeholder="{i18n>inputEmail}" />
-				<Button press="onPressGo" text="{i18n>buttonAnmelden}" />
+				<Input id="inputMail" width="50%" placeholder="{i18n>inputEmail}" />
+				<Button press="onPressGo" width="50%" text="{i18n>buttonAnmelden}" />
 				
 
 								

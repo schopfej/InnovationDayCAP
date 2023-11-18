@@ -20,6 +20,7 @@ sap.ui.define([
          * @public
          */
         onInit : function () {
+
             var oViewModel;
 
             // keeps the search state
@@ -123,7 +124,6 @@ sap.ui.define([
          */
         _showObject : function (oItem) {
             var selectedParticipantId = this.getView().byId("inputMail").getValue();
-            selectedParticipantId = "stefan@tester.sap.com" ;
             this.getRouter().navTo("object", {
                 participantId: encodeURIComponent(selectedParticipantId)
             });

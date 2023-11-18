@@ -1,4 +1,5 @@
 <mvc:View
+    height="100%"
     controllerName="ch.novobc.innoappmodule2.controller.Object"
     xmlns="sap.m"
     xmlns:mvc="sap.ui.core.mvc"
@@ -7,16 +8,16 @@
     xmlns:uxap="sap.uxap"
     xmlns:f="sap.f"
     xmlns:semantic="sap.f.semantic"
-    displayBlock="true"
 >
     <Page
         id="detail"
-        showNavButton="false"
-        navButtonPress="handleNavButtonPress"
-    >
+        title="NOVO Innovation Day 2023"
+        class="sapUiResponsivePadding--header" >
+    <content>
         <ObjectHeader
             id="_IDGenObjectHeader1"
             title="{email}"
+            backgroundDesign="Solid"
         >
             <attributes>
                 <ObjectAttribute
@@ -37,96 +38,84 @@
                 />
             </attributes>
         </ObjectHeader>
-        <Table items="{ path: 'presentations' }">
-            <columns>
-                <Column width="12em">
-                    <Text text="{i18n>objectPageInformation}" />
-                </Column>
-            </columns>
-            <items>
-                <ColumnListItem vAlign="Middle">
-                    <cells>
-                        <Panel
-                            expandable="true"
-                            headerText="{presentation/timeslot} : {presentation/presentationDesc}"
-                            width="auto"
-                            class="sapUiResponsiveMargin"
-                        >
-                            <content>
-                                <forms:SimpleForm
-                                    labelSpanL="4"
-                                    labelSpanM="4"
-                                    editable="false"
-                                    labelSpanS="4"
-                                    emptySpanL="0"
-                                    emptySpanM="0"
-                                    emptySpanS="0"
-                                    maxContainerCols="2"
-                                    layout="ResponsiveGridLayout"
-                                    width="100%"
-                                >
-                                    <core:Title
-                                        text="{i18n>objectPageReferat}"
-                                    />
-                                    <Label text="{i18n>objectPageName}" />
-                                    <Text text="{presentation/referee/name}" />
-                                    <Label text="{i18n>objectPageBiographie}" />
-                                    <Text text="{presentation/referee/bio}" />
-                                    <core:Title
-                                        text="{i18n>objectPageAllgInformation}"
-                                    />
-                                    <Label text="{i18n>objectPageZeit}" />
-                                    <Text text="{presentation/timeslot}" />
-                                    <Label text="{i18n>objectPageZimmer}" />
-                                    <Text text="{presentation/room/name}" />
-                                    <Label
-                                        text="{i18n>objectPageRoomBeschreibung}"
-                                    />
-                                    <Text
-                                        text="{presentation/room/description}"
-                                    />
-                                    <Label text="{i18n>objectPageLocation}" />
-                                    <Text text="{presentation/room/location}" />
-
-                                    
-                                </forms:SimpleForm>
-                            </content>
-                        </Panel>
-                    </cells>
-                </ColumnListItem>
-            </items>
-        </Table>
-        <Table id="idTableLageplan">
-            <columns>
-                <Column width="12em">
-                    <Text text="{i18n>objectPageInformationLageplan}" />
-                </Column>
-            </columns>
-            <items>
-                <ColumnListItem vAlign="Middle">
-                    <cells>
-                        <Panel
+        <IconTabBar
+                expanded="{device>/isNoPhone}"
+                class="sapUiSmallMarginBottom sapUiResponsiveContentPadding">
+                <items>
+                    <IconTabFilter
+                        key="agenda"
+                        text="Agenda">
+                        <Table items="{ path: 'presentations' }">
+                            <columns>
+                                <Column >
+                                    <Text text="{i18n>objectPageInformation}" />
+                                </Column>
+                            </columns>
+                            <items>
+                                <ColumnListItem vAlign="Middle">
+                                    <cells>
+                                        <Panel
+                                            expandable="true"
+                                            headerText="{presentation/timeslot} : {presentation/presentationDesc}"
+                                            width="auto"
+                                            class="sapUiResponsiveMargin"
+                                        >
+                                            <content>
+                                                <forms:SimpleForm
+                                                    layout="ResponsiveGridLayout"
+                                                    width="100%"
+                                                >
+                                                    <core:Title
+                                                        text="{i18n>objectPageReferat}"
+                                                    />
+                                                    <Label text="{i18n>objectPageName}" />
+                                                    <Text text="{presentation/referee/name}" />
+                                                    <Label text="{i18n>objectPageBiographie}" />
+                                                    <Text text="{presentation/referee/bio}" />
+                                                    <core:Title
+                                                        text="{i18n>objectPageAllgInformation}"
+                                                    />
+                                                    <Label text="{i18n>objectPageZeit}" />
+                                                    <Text text="{presentation/timeslot}" />
+                                                    <Label text="{i18n>objectPageZimmer}" />
+                                                    <Text text="{presentation/room/name}" />
+                                                    <Label
+                                                        text="{i18n>objectPageRoomBeschreibung}"
+                                                    />
+                                                    <Text
+                                                        text="{presentation/room/description}"
+                                                    />
+                                                    <Label text="{i18n>objectPageLocation}" />
+                                                    <Text text="{presentation/room/location}" />
+ 
+                                                   
+                                                </forms:SimpleForm>
+                                            </content>
+                                        </Panel>
+                                    </cells>
+                                </ColumnListItem>
+                            </items>
+                        </Table>
+                    </IconTabFilter>
+                    <IconTabFilter
+                        key="lageplan"
+                        text="Lageplan">
+                         <Panel
                             expandable="true"
                             expanded="true"
                             width="auto"
-                            class="sapUiResponsiveMargin"
-                        >
-                            <content>
-                               
-                                    <FlexBox
-                                        height="100px"
-                                    >
-                                        <items>
-                                        <Image id="idImage" src="Image/wankdorf.png"></Image>
-                                           
-                                        </items>
+                            class="sapUiResponsiveMargin">
+                               <content>
+                                  <FlexBox>
+                                    <items>
+                                    <Image id="idImage" src="Image/wankdorf2.png"/>
+                                    </items>
                                     </FlexBox>
-                                
-                            </content>
+                                </content>
                         </Panel>
-                    </cells>
-                </ColumnListItem>
-            </items>
-        </Table>
+                    </IconTabFilter>
+                </items>
+            </IconTabBar>
+        </content>
     </Page>
 </mvc:View>

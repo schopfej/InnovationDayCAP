@@ -20,6 +20,7 @@ sap.ui.define([
          * @public
          */
         onInit : function () {
+
             var oViewModel;
 
             // keeps the search state

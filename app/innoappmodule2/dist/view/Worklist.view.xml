@@ -12,50 +12,23 @@
 				</contentLeft>
 			</Bar>
 		</subHeader> -->
-		<Panel expandable="false" expanded="true">
+			<Panel expandable="false" expanded="true">
 			<content>
 		
 		<f:SimpleForm id="SimpleFormChange354"
-
 			editable="true"
-
-			layout="ResponsiveGridLayout"
-
 			title="{i18n>titleNovoInnovationDay}"
 
-			labelSpanXL="3"
-
-			labelSpanL="3"
-
-			labelSpanM="3"
-
-			labelSpanS="12"
-
-			adjustLabelSpan="false"
-
-			emptySpanXL="4"
-
-			emptySpanL="4"
-
-			emptySpanM="4"
-
-			emptySpanS="0"
-
-			columnsXL="1"
-
-			columnsL="1"
-
-			columnsM="1"
 
 			singleContainerFullSize="false" >
 
-				<l:VerticalLayout class="sapUiSmallMarginBeginEnd sapUiLargeMarginBegin" width="50%" >
+				<l:VerticalLayout class="sapUiSmallMarginBeginEnd sapUiLargeMarginBegin" >
 									
 								
 				
 
 				<Input id="inputMail" width="50%" placeholder="{i18n>inputEmail}" />
-				<Button press="onPressGo" text="{i18n>buttonAnmelden}" />
+				<Button press="onPressGo" width="50%" text="{i18n>buttonAnmelden}" />
 				
 
 								
