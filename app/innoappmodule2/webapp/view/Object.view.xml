@@ -68,6 +68,8 @@
                                                     <core:Title
                                                         text="{i18n>objectPageReferat}"
                                                     />
+                                                    <Label text="{i18n>objectPageThema}" />
+                                                    <Text text="{presentation/presentationDesc}" />
                                                     <Label text="{i18n>objectPageName}" />
                                                     <Text text="{presentation/referee/name}" />
                                                     <Label text="{i18n>objectPageBiographie}" />

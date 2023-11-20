@@ -124,12 +124,14 @@ sap.ui.define([
          */
         _showObject : function (oItem) {
             var selectedParticipantId = this.getView().byId("inputMail").getValue();
+            var lowerCaseEmail = selectedParticipantId.toLowerCase();
+            
             this.getRouter().navTo("object", {
-                participantId: encodeURIComponent(selectedParticipantId)
+                participantId: encodeURIComponent(lowerCaseEmail)
             });
 
 
-        },
+        },  
 
         /**
          * Internal helper method to apply both filter and search state together on the list binding
