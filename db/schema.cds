@@ -9,6 +9,8 @@ using {
 entity Presentations {
     key presentationId   : UUID;
         timeslot         : String;
+        startTime        : Time;
+        endTime          : Time;
         presentationDesc : String;
         referee          : Association to Referees;
         room             : Association to Rooms;

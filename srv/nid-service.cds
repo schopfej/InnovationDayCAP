@@ -5,7 +5,7 @@ service NIDService {
     entity Participants as projection on my.Participants;
 
     @readonly
-    entity Presentations as projection on my.Presentations;
+    entity Presentations as projection on my.Presentations order by startTime asc;
 
     @readonly
     entity ParticipantToPresentation as projection on my.ParticipantToPresentation;
