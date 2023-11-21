@@ -63,7 +63,7 @@
                                             <content>
                                                 <forms:SimpleForm
                                                     layout="ResponsiveGridLayout"
-                                                    width="100%"
+                                                    width="auto"
                                                 >
                                                     <core:Title
                                                         text="{i18n>objectPageReferat}"

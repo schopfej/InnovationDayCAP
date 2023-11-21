@@ -2,8 +2,9 @@ sap.ui.define([
     "sap/ui/base/Object",
     "sap/m/MessageBox",
     "sap/ui/model/Filter",
-    "sap/ui/model/FilterOperator"
-], function (UI5Object, MessageBox, Filter, FilterOperator) {
+    "sap/ui/model/FilterOperator",
+    "sap/ui/core/routing/History"
+], function (UI5Object, MessageBox, Filter, FilterOperator,History) {
     "use strict";
 
     return UI5Object.extend("ch.novobc.innoappmodule2.controller.ErrorHandler", {
@@ -67,6 +68,15 @@ sap.ui.define([
                     styleClass: this._oComponent.getContentDensityClass(),
                     actions: [MessageBox.Action.CLOSE],
                     onClose: function () {
+                        const oHistory = History.getInstance();
+			const sPreviousHash = oHistory.getPreviousHash();
+
+			if (sPreviousHash !== undefined) {
+				window.history.go(-1);
+			} else {
+				const oRouter = this.getOwnerComponent().getRouter();
+				oRouter.navTo("overview", {}, true);
+			}
                         this._bMessageOpen = false;
                     }.bind(this)
                 }

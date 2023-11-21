@@ -1,43 +1,66 @@
-<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form" xmlns="sap.m" xmlns:semantic="sap.f.semantic" controllerName="ch.novobc.innoappmodule2.controller.Worklist" displayBlock="true">
-
-     <Page id="listPage" title="{i18n>ListTitle}" showHeader="false">
-			<Panel expandable="false" expanded="true">
-			<content>
-		
-		<f:SimpleForm id="SimpleFormChange354" editable="true" title="{i18n>titleNovoInnovationDay}" singleContainerFullSize="false">
-							
-
-		<f:content>
-							
-
-		    <l:VerticalLayout class="sapUiSmallMarginBeginEnd sapUiLargeMarginBegin">
-				<Button xmlns="sap.m" press="onPressGo" width="50%" text="{i18n>buttonAnmelden}"/>
-				
-
-								
-							<l:content>
-				
-
-								
-							    <Input xmlns="sap.m" id="inputMail" width="50%" placeholder="{i18n>inputEmail}"/>
-				
-
-								
-							</l:content>
-				
-
-								
-							</l:VerticalLayout>
-							
-
-		</f:content>
-							
-
-		</f:SimpleForm>
-			</content>
-		</Panel>
-	
-
+<mvc:View
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:l="sap.ui.layout"
+    xmlns:f="sap.ui.layout.form"
+    xmlns="sap.m"
+    xmlns:semantic="sap.f.semantic"
+    controllerName="ch.novobc.innoappmodule2.controller.Worklist"
+    displayBlock="true"
+>
+    <Page
+        id="listPage"
+        title="{i18n>ListTitle}"
+        showHeader="false"
+    >
+        <Panel
+            expandable="false"
+            expanded="true"
+        >
+            <content>
+                <l:Grid
+                    defaultSpan="L12 M7 S12"
+                    width="auto"
+                >
+                    <l:content>
+                        <f:SimpleForm
+                            id="SimpleFormChange35684"
+                            title="{i18n>titleNovoInnovationDay}"
+                            minWidth="1024"
+                            maxContainerCols="2"
+                            layout="ResponsiveLayout"
+                            editable="true"
+                            visible="true"
+                        >
+                            <FlexBox
+                                alignItems="Center"
+                                justifyContent="Center"
+                            >
+                                <items>
+                                    <l:VerticalLayout
+                                        class="sapUiSmallMarginBeginEnd sapUiLargeMarginBegin"
+                                    >
+                                        <Label
+                                            text="{i18n>labelEmailAdresse}"
+                                        />
+                                        <Input
+                                            id="inputMail"
+                                            width="100%"
+                                            placeholder="{i18n>inputEmail}"
+                                        />
+                                        <Button
+                                            type="Accept"
+                                            xmlns="sap.m"
+                                            press="onPressGo"
+                                            width="100%"
+                                            text="{i18n>buttonAnmelden}"
+                                        />
+                                    </l:VerticalLayout>
+                                </items>
+                            </FlexBox>
+                        </f:SimpleForm>
+                    </l:content>
+                </l:Grid>
+            </content>
+        </Panel>
     </Page>
-
 </mvc:View>
