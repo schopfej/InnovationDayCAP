@@ -68,9 +68,23 @@ modules:
       - chnovobcinnoappmodule2.zip
       name: chnovobcinnoappmodule2
       target-path: resources/
+    - artifacts:
+      - elements.zip
+      name: elements
+      target-path: resources/
 - name: chnovobcinnoappmodule2
   type: html5
   path: app/innoappmodule2
+  build-parameters:
+    build-result: dist
+    builder: custom
+    commands:
+    - npm install
+    - npm run build:cf
+    supported-platforms: []
+- name: elements
+  type: html5
+  path: app/elements
   build-parameters:
     build-result: dist
     builder: custom

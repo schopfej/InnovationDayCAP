@@ -1,0 +1,164 @@
+{
+    "_version": "1.59.0",
+    "sap.app": {
+        "id": "elements",
+        "type": "application",
+        "i18n": "i18n/i18n.properties",
+        "applicationVersion": {
+            "version": "0.0.1"
+        },
+        "title": "{{appTitle}}",
+        "description": "{{appDescription}}",
+        "resources": "resources.json",
+        "sourceTemplate": {
+            "id": "@sap/generator-fiori:lrop",
+            "version": "1.11.5",
+            "toolsId": "819b8edd-a01e-43e3-ab64-ecd052cb4308"
+        },
+        "dataSources": {
+            "mainService": {
+                "uri": "/odata/v4/nid/",
+                "type": "OData",
+                "settings": {
+                    "annotations": [],
+                    "localUri": "localService/metadata.xml",
+                    "odataVersion": "4.0"
+                }
+            }
+        }
+    },
+    "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+            "icon": "",
+            "favIcon": "",
+            "phone": "",
+            "phone@2": "",
+            "tablet": "",
+            "tablet@2": ""
+        },
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
+        }
+    },
+    "sap.ui5": {
+        "flexEnabled": true,
+        "dependencies": {
+            "minUI5Version": "1.120.1",
+            "libs": {
+                "sap.m": {},
+                "sap.ui.core": {},
+                "sap.ushell": {},
+                "sap.fe.templates": {}
+            }
+        },
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        },
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "settings": {
+                    "bundleName": "elements.i18n.i18n"
+                }
+            },
+            "": {
+                "dataSource": "mainService",
+                "preload": true,
+                "settings": {
+                    "synchronizationMode": "None",
+                    "operationMode": "Server",
+                    "autoExpandSelect": true,
+                    "earlyRequests": true
+                }
+            },
+            "@i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "uri": "i18n/i18n.properties"
+            }
+        },
+        "resources": {
+            "css": []
+        },
+        "routing": {
+            "config": {},
+            "routes": [
+                {
+                    "pattern": ":?query:",
+                    "name": "ParticipantsList",
+                    "target": "ParticipantsList"
+                },
+                {
+                    "pattern": "Participants({key}):?query:",
+                    "name": "ParticipantsObjectPage",
+                    "target": "ParticipantsObjectPage"
+                },
+                {
+                    "pattern": "Participants({key})/presentations({key2}):?query:",
+                    "name": "ParticipantToPresentationObjectPage",
+                    "target": "ParticipantToPresentationObjectPage"
+                }
+            ],
+            "targets": {
+                "ParticipantsList": {
+                    "type": "Component",
+                    "id": "ParticipantsList",
+                    "name": "sap.fe.templates.ListReport",
+                    "options": {
+                        "settings": {
+                            "contextPath": "/Participants",
+                            "variantManagement": "Page",
+                            "navigation": {
+                                "Participants": {
+                                    "detail": {
+                                        "route": "ParticipantsObjectPage"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "ParticipantsObjectPage": {
+                    "type": "Component",
+                    "id": "ParticipantsObjectPage",
+                    "name": "sap.fe.templates.ObjectPage",
+                    "options": {
+                        "settings": {
+                            "editableHeaderContent": false,
+                            "contextPath": "/Participants",
+                            "navigation": {
+                                "presentations": {
+                                    "detail": {
+                                        "route": "ParticipantToPresentationObjectPage"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "ParticipantToPresentationObjectPage": {
+                    "type": "Component",
+                    "id": "ParticipantToPresentationObjectPage",
+                    "name": "sap.fe.templates.ObjectPage",
+                    "options": {
+                        "settings": {
+                            "editableHeaderContent": false,
+                            "contextPath": "/Participants/presentations"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "sap.fiori": {
+        "registrationIds": [],
+        "archeType": "transactional"
+    },
+    "sap.cloud": {
+        "public": true,
+        "service": "novoinnoappapprouter"
+    }
+}

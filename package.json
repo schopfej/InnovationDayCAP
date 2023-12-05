@@ -15,7 +15,7 @@
     "devDependencies": {
         "@cap-js/sqlite": "^1",
         "@sap/cds-dk": "^7",
-        "@sap/ux-specification": "^1.108.17",
+        "@sap/ux-specification": "^1.120.0",
         "rimraf": "^3.0.2"
     },
     "scripts": {
@@ -24,7 +24,8 @@
         "undeploy": "cf undeploy novoinnoapp --delete-services --delete-service-keys --delete-service-brokers",
         "build": "rimraf resources mta_archives && mbt build --mtar archive",
         "deploy": "cf deploy mta_archives/archive.mtar --retries 1",
-        "watch-innoappmodule2": "cds watch --open innoappmodule2/webapp/index.html?sap-ui-xx-viewCache=false"
+        "watch-innoappmodule2": "cds watch --open innoappmodule2/webapp/index.html?sap-ui-xx-viewCache=false",
+        "watch-elements": "cds watch --open elements/webapp/index.html?sap-ui-xx-viewCache=false"
     },
     "cds": {
         "requires": {
@@ -40,5 +41,8 @@
                 }
             }
         }
-    }
+    },
+    "sapux": [
+        "app/elements"
+    ]
 }
